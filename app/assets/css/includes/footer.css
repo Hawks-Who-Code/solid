@@ -1,0 +1,7 @@
+footer {
+    background-color: var(--purple);
+    display: block;
+    width: calc(100% - 60px);
+    padding: 10px 30px;
+    min-height: 100px;
+}

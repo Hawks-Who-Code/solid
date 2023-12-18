@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+
+:root {
+    --dark-purple: #361F27;
+    --purple: #521945;
+    --magenta: #eb679c;
+    --white: #EAF2EF;
+    --black: #0D090A;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: var(--white);
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Fragment Mono', monospace;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--black);
+    min-height: 100vh;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.highlight {
+    color: var(--magenta);
+}

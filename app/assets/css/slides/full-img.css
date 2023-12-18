@@ -1,0 +1,15 @@
+.slide.full-img>img {
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    filter: grayscale(30%) brightness(50%) blur(4px);
+    z-index: -1;
+}
+
+.slide.full-img>h1 {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    font-size: 5rem;
+    width: 60%;
+}
