@@ -36,7 +36,7 @@ main {
     margin-top: 60px;
 }
 
-section {
+.slide {
     width: 100%;
     height: calc(100vh - 60px);
 }
