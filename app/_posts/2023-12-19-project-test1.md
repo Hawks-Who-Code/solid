@@ -12,12 +12,6 @@ style: /assets/css/pages/project-1.css
 
 Here is some description of the project blah blah blah. Here is some description of the project blah blah blah. Here is some description of the project blah blah blah. Here is some description of the project blah blah blah. Here is some description of the project blah blah blah. Here is some description of the project blah blah blah.
 
-## Another Subheading
-
-Here is some description of the project blah blah blah. Here is some description of the project blah blah blah. Here is some description of the project blah blah blah. Here is some description of the project blah blah blah.
-
-Here is some description of the project blah blah blah. Here is some description of the project blah blah blah. Here is some description of the project blah blah blah. Here is some description of the project blah blah blah. Here is some description of the project blah blah blah.
-
 ## Credits
 
 Here is some description of the project blah blah blah. Here is some description of the project blah blah blah. Here is some description of the project blah blah blah. Here is some description of the project blah blah blah.
