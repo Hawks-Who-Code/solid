@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
 
 :root {
-    --dark-purple: #361F27;
-    --purple: #521945;
-    --magenta: #eb679c;
-    --white: #EAF2EF;
-    --black: #0D090A;
+    --red: #F2545B;
+    --dark-red: #A93F55;
+    --brown: #8C5E58;
+    --white: #F3F7F0;
+    --light-gray: #bdc4c4;
+    --black: #19323C;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    color: var(--white);
+    color: var(--light-gray);
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Fragment Mono', monospace;
+    font-size: 1.2rem;
 }
 
 body {
@@ -28,9 +30,22 @@ body {
 
 main {
     flex: 1;
-    margin-top: 49px;
+    margin-top: 60px;
+}
+
+.slide {
+    width: 100%;
+    height: calc(100vh - 60px);
 }
 
 .highlight {
-    color: var(--magenta);
+    background-color: var(--dark-red);
+}
+
+.primary {
+    color: var(--red)
+}
+
+.white {
+    color: var(--white);
 }
