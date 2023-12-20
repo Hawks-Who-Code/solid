@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 :root {
     --red: #EB4511;
@@ -9,19 +9,26 @@
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    color: var(--light-gray);
+    color: var(--black);
 }
 
-h1, h2, h3, h4, h5, h6, p, a {
-    font-family: 'Inconsolata', monospace;
+h1, h2, h3, h4, h5, h6, p, a, .byline {
+    font-family: 'Source Code Pro', monospace;
 }
 
 h1 {
     font-size: 4rem;
+    margin: 20px 0;
 }
 
 p, a {
     font-size: 1.2rem;
+}
+
+.byline {
+    font-size: 2rem;
+    margin: 5px 0;
+    color: var(--gray);
 }
 
 .medium-text {
