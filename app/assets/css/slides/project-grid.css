@@ -1,0 +1,40 @@
+.project-grid {
+    display: grid;
+    grid-template-areas:
+        'a b c'
+        'a d e';
+    gap: 1px;
+    background-color: var(--gray);
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-grid > div {
+    background-color: var(--white);
+}
+
+.project-grid>.info {
+    grid-area: a;
+    position: relative;
+}
+
+.project-grid .content {
+    padding: 0 20px;
+    position: absolute;
+    bottom: 100px;
+}
+
+.project-grid>.p1 {
+    grid-area: b;
+}
+
+.project-grid>.p2 {
+    grid-area: c;
+}
+
+.project-grid>.p3 {
+    grid-area: d;
+}
+
+.project-grid>.p4 {
+    grid-area: e;
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 :root {
     --red: #EB4511;
@@ -13,15 +13,19 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 p, a {
     font-size: 1.2rem;
+}
+
+.medium-text {
+    font-size: 2.2rem;
 }
 
 p {
@@ -46,6 +50,7 @@ main {
 .slide {
     width: 100%;
     height: calc(100vh - 60px);
+    border-bottom: 1px solid var(--gray);
 }
 
 .highlight {

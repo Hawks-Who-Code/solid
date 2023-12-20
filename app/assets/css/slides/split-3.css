@@ -1,0 +1,12 @@
+.split-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    background-color: var(--gray);
+}
+
+.split-3>.col {
+    flex: 1;
+    background-color: var(--white);
+    padding: 0 20px;
+}
