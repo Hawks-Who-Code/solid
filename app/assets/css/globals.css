@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 :root {
-    --red: #F2545B;
-    --dark-red: #A93F55;
-    --brown: #8C5E58;
-    --white: #F3F7F0;
-    --light-gray: #bdc4c4;
-    --black: #19323C;
+    --red: #EB4511;
+    --champagne: #EEE0CB;
+    --white: #EEF0F2;
+    --gray: #5C6B73;
+    --black: #141204;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -14,7 +13,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
-    font-family: 'Fragment Mono', monospace;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -32,7 +31,7 @@ p {
 body {
     padding: 0;
     margin: 0;
-    background-color: var(--black);
+    background-color: var(--white);
     min-height: 100vh;
     height: min-content;
     display: flex;
@@ -50,7 +49,7 @@ main {
 }
 
 .highlight {
-    background-color: var(--dark-red);
+    background-color: var(--champagne);
 }
 
 .primary {

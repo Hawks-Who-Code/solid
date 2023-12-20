@@ -2,8 +2,8 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 1;
-    background-color: var(--black);
-    border-bottom: 1px solid var(--light-gray);
+    background-color: var(--white);
+    border-bottom: 1px solid var(--gray);
 }
 
 nav>ul {
@@ -19,7 +19,7 @@ nav>ul>li {
 nav>ul>li>a {
     display: block;
     padding: 10px 20px;
-    color: var(--light-gray);
+    color: var(--black);
     font-size: 1.7rem;
     height: 40px;
     line-height: 40px;
