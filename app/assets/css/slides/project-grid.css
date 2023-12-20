@@ -5,7 +5,8 @@
         'a d e';
     gap: 1px;
     background-color: var(--gray);
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
 }
 
 .project-grid > div {
@@ -21,6 +22,16 @@
     padding: 0 20px;
     position: absolute;
     bottom: 100px;
+}
+
+.project-grid > .project {
+    overflow: hidden;
+}
+
+.project-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .project-grid>.p1 {

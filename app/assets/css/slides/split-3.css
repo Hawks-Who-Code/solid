@@ -1,6 +1,6 @@
 .split-3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
     gap: 1px;
     background-color: var(--gray);
@@ -8,6 +8,7 @@
 
 .split-3 > div {
     background-color: var(--white);
+    overflow: hidden;
 }
 
 .split-3 > div.champagne {
@@ -16,4 +17,10 @@
 
 .split-3 > div.text {
     padding: 20px;
+}
+
+.split-3 > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
