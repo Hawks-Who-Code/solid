@@ -4,7 +4,7 @@ keywords: stem, mths, mountlake, terrace, science, technology, somputer science,
 email: jnac8080@gmail.com
 description: >-
   See what students are making in the STEM program at Mountlake Terrace High School
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/solid" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: Hawks-Who-Code
 
